@@ -131,7 +131,7 @@ public class Reto1 {
 			System.out.println(Funciones1.minimo3(numero1minimo, numero2minimo, numero3minimo));
 			break;
 		case 0:
-			System.out.println("0. Salir");
+			System.out.println("Saliendo...");
 			break;
 
 		default:
