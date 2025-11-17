@@ -10,16 +10,8 @@ public class Funciones1 {
 	}
 
 	
-	public static int minimo3(int n1)
+	public static int minimo3(int n1, int n2, int n3)
 	{
-		do
-		{
-		try {
-			return Math.min(100000, n1);
-
-		} catch (Exception e) {
-			System.out.println("Formato incorrecto. No es un número");
-		}
-		}while(true);
+			return Math.min(n1, Math.min(n2, n3));
 	}
 }
